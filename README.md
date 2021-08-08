@@ -11,12 +11,15 @@ preprocessed data was saved at dataF.csv which the punctuation, stopwords, and l
 ### models:
 5 models have trained with oversampled data(to balance the number of class samples) and the prediction results for validation data was:
 
-sequential NN model = 94%
-Linear Support Vector Machine = 93%
-Random Forest Classifier = 90%
-Multinomial Navy Base = 88%
-Logistic Regression = 84%
+|model|accuracy|
+|---|---|
+|sequential NN model | 94%|
+|Linear Support Vector Machine | 93%|
+|Random Forest Classifier| 90%|
+|Multinomial Navy Base| 88%|
+|Logistic Regression | 84%|
 
+![image](https://user-images.githubusercontent.com/51965862/128639691-ff695161-c74f-4a62-a37a-0b216743cbf9.png)
 
 _________________________________________________________________
 
