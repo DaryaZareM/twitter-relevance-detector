@@ -9,10 +9,12 @@ in this code we used libebarys:
 ### preprocessed:
 preprocessed data was saved at dataF.csv which the punctuation, stopwords, and links have been removed from data and words have stemmed.
 ### models:
-5 models have trained with oversampled data(to balance the number of class samples) and the prediction results for validation data was:
+7 models have trained with oversampled data(to balance the number of class samples) and the prediction results for validation data was:
 
 |model|accuracy|
 |---|---|
+|RNN|97%|
+|CNN|96%|
 |sequential NN model | 94%|
 |Linear Support Vector Machine | 93%|
 |Random Forest Classifier| 90%|
